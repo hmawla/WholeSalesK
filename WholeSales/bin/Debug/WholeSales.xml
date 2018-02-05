@@ -1,0 +1,276 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WholeSales
+</name>
+</assembly>
+<members>
+<member name="T:WholeSales.credintialsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WholeSales.credintialsDataSet.credentialsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WholeSales.credintialsDataSet.credentialsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WholeSales.credintialsDataSet.credentialsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WholeSales.credintialsDataSetTableAdapters.credentialsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WholeSales.credintialsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:WholeSales.credintialsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WholeSales.credintialsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:WholeSales.credintialsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WholeSales.credintialsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:WholeSales.credintialsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WholeSales.credintialsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:WholeSales.credintialsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:WholeSales.credintialsDataSetTableAdapters.TableAdapterManager.UpdateAll(WholeSales.credintialsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:WholeSales.credintialsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:WholeSales.credintialsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:WholeSales.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WholeSales.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WholeSales.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet.CLIENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet.EMPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet.ITEMSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_ATTENDANCEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_CLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_EMPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_ITEMSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet.CLIENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet.EMPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet.ITEMSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_ATTENDANCERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_CLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_EMPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_ITEMSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet.CLIENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet.EMPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet.ITEMSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_ATTENDANCERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_CLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_EMPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSet._REPORT_ITEMSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.CLIENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.EMPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.ITEMSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.REPORT_ATTENDANCETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.REPORT_CLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.REPORT_EMPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.REPORT_ITEMSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:WholeSales.salesDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WholeSales.salesDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:WholeSales.salesDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WholeSales.salesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:WholeSales.salesDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WholeSales.salesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:WholeSales.salesDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:WholeSales.salesDataSetTableAdapters.TableAdapterManager.UpdateAll(WholeSales.salesDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:WholeSales.salesDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
